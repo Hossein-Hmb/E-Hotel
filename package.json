@@ -1,0 +1,27 @@
+{
+  "name": "e-hotel",
+  "version": "1.0.0",
+  "description": "hotel website connected to postgresql db",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hossein-Hmb/E-Hotel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hossein-Hmb/E-Hotel/issues"
+  },
+  "homepage": "https://github.com/Hossein-Hmb/E-Hotel#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "bootstrap": "^5.3.0-alpha2",
+    "express.js": "^1.0.0",
+    "knex": "^2.4.2",
+    "nodemon": "^2.0.22",
+    "pg": "^8.10.0"
+  }
+}
